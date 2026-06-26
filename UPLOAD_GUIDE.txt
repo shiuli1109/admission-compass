@@ -1,0 +1,18 @@
+請把本資料夾內的所有項目保持資料夾結構上傳到 GitHub：
+
+app
+components
+data
+public
+package.json
+tsconfig.json
+next.config.mjs
+next-env.d.ts
+README.md
+.gitignore
+
+錯誤做法：
+把 app 裡面的 page.tsx、globals.css 拉出來單獨上傳。
+
+正確做法：
+在檔案總管中打開 admission_compass_v2_github 資料夾，Ctrl+A 全選最上層的 app、components、data、public 等項目，一起拖到 GitHub。
