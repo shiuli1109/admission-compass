@@ -22,12 +22,9 @@ export default function HomePage() {
       <main>
         <section className="hero">
           <div>
-            <span className="tag">基北區升學探索平台｜V2</span>
+            <span className="tag">基北區升學探索平台｜Clean V1</span>
             <h2>用一張地圖，看懂孩子的升學選擇。</h2>
-            <p>
-              整合基隆、臺北、新北高中職資訊，讓學生與家長依地理位置、
-              學校類型、課程特色與適合特質進行探索。
-            </p>
+            <p>整合基隆、臺北、新北高中職資訊，讓學生與家長依地理位置、學校類型、課程特色與適合特質進行探索。</p>
             <div className="hero-actions">
               <Link href="/map" className="primary-btn">開始探索地圖</Link>
               <Link href="/schools" className="secondary-btn">查看學校資料庫</Link>
@@ -49,10 +46,7 @@ export default function HomePage() {
 
         <section className="about">
           <h2>網站定位</h2>
-          <p>
-            這是「升學指南針」的正式版起始架構，適合後續擴充完整基北區學校資料、
-            歷年錄取分數、志願序分析、AI落點分析、升學文章與會員功能。
-          </p>
+          <p>這是「升學指南針」的正式版起始架構，適合後續擴充完整基北區學校資料、歷年錄取分數、志願序分析、AI落點分析、升學文章與會員功能。</p>
           <div className="about-grid">
             <article><h3>互動地圖</h3><p>以視覺化方式理解學校分布，適合升學講座與學生探索。</p></article>
             <article><h3>學校資料庫</h3><p>集中管理學校資訊，未來可匯入完整高中、高職與五專資料。</p></article>

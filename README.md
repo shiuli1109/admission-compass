@@ -1,12 +1,19 @@
-# 升學指南針 Admission Compass V2
+# 升學指南針 Admission Compass Clean V1
 
-這是 GitHub + Vercel 正式版骨架。
+這是一份乾淨的 GitHub + Vercel 專案資料夾。
 
-## 上傳 GitHub 時請注意
+## 使用方法
 
-解壓縮後，請進入 `admission_compass_v2_github` 資料夾。
+1. 解壓縮 `admission_compass_clean_v1.zip`
+2. 打開 GitHub Desktop 的本機 repository 資料夾：`admission-compass`
+3. 刪除裡面所有舊檔案，但不要刪除 `admission-compass` 資料夾本身
+4. 將 `admission_compass_clean_v1` 裡面的所有項目複製進 `admission-compass`
+5. 回到 GitHub Desktop
+6. Commit
+7. Push origin
+8. 到 Vercel Import Git Repository
 
-GitHub 根目錄必須直接看到：
+## 正確根目錄應該看到
 
 - app
 - components
@@ -17,11 +24,3 @@ GitHub 根目錄必須直接看到：
 - next.config.mjs
 - next-env.d.ts
 - README.md
-
-不要把 app 裡面的 page.tsx、globals.css 拉出來單獨上傳。
-
-## Vercel
-
-從 Vercel 匯入 GitHub repository。
-Framework Preset 選 Next.js。
-直接 Deploy。

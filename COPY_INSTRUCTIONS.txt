@@ -1,0 +1,15 @@
+請把這個資料夾裡的所有項目複製到 GitHub Desktop clone 下來的 admission-compass 資料夾裡。
+
+正確內容：
+app
+components
+data
+public
+.gitignore
+next.config.mjs
+next-env.d.ts
+package.json
+README.md
+tsconfig.json
+
+如果看到 page.tsx、globals.css、MapClient.tsx 直接出現在 admission-compass 根目錄，就是錯的。
